@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Мои сайт которые я создал">
+    <meta name="keywords" content="веб сайты, сайты, веб страницы">
+    <meta name="author" content="Bkmz">
+    <title>Список сайто которые я создал</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #efffe1;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+/* Основное содержимое */
+.main {
+    padding: 40px 0;
+    min-height: calc(100vh - 180px);
+
+}
+.cards-grid{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 20px;
+}
+
+.cards{
+	
+	padding: 15px;
+	height: auto;
+	width: 300px;
+	background-color: #e4efff;
+	border-radius: 12px;
+	border: 2px solid #1468e1;
+}
+h2{
+font-size: 20px;
+color: #1468e1;
+margin-bottom: 10px;
+}
+img{
+	
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+/* Подвал */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+	</style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">Мои сайты</a>
+			<!--
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <div class="container">
+            <h1>Список сайтов которые я создал</h1>
+            <p>Здесь будут все сайты которые я создал</p>
+		 <div class="cards-grid">
+		<div class="cards">
+			<h2>Узнать свой IP адрес</h2>
+			<img src="ip_site.webp">
+			<p>Сайт который поможет узнать ваш айпи адресс и местоположение</p>
+			<a href="https://ip.is-great.net/" target="_blank">Узнать свой IP</a>
+		</div>
+		
+		<div class="cards">
+			<h2>Сайт дизайнера </h2>
+			<img src="img.webp">
+			<p>Личный блог графического дизайнера</p>
+			<a href="https://designer.iblogger.org/" target="_blank">Сайт для дизайнера </a>
+		</div>
+		
+		<div class="cards">
+			<h2>Математика для взрослых</h2>
+			<img src="img.webp">
+			<p>Курс школьной математики за 6 класс</p>
+			<a href="https://math.cooo.in/" target="_blank">Математика для взрослых</a>
+		</div>
+		
+		<div class="cards">
+			<h2>Сайт про ответы майл ру</h2>
+			<img src="img.webp">
+			<p>Фан сайт ответов майл точка ру</p>
+			<a href="https://otvet.xo.je/" target="_blank">Сайт про ответы майл ру</a>
+		</div>
+		
+		<div class="cards">
+			<h2>Знакомства в Москве</h2>
+			<img src="img.webp">
+			<p>Фан сайт ответов майл точка ру</p>
+			<a href="https://msk.loveslife.biz/" target="_blank" >Москва знакомства</a>
+		</div>
+		</div>
+		
+		<p style="margin-top: 20px;">В будущем список будет пополняться</p>
+        </div>
+		
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Мои сайты. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>w
