@@ -91,7 +91,8 @@ img{
 }
 p{
 width: 100px;
-overflow: hidden;
+height: 300px;
+overflow: wrap;
 }
 /* Подвал */
 .footer {
